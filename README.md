@@ -49,5 +49,5 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://alywp.net/6DceDH">②展示一些函数的编写过程</a></p>
 <p><a href="https://alywp.net/7I7PeA">③教学封装StringLib的函数如何与原库合并</a></p>
 新增内容如下：
-<p>string.compare</p>string.endsWith<p>string.equals</p>string.hashCode<p>string.intern</p>string.startsWith<p>string.split</p>string.toCharArray<p>string.trim</p>string.delet<p>string.insert</p>string.setCharAt<p>string.newString</p>string.isLetter<p>string.isDigit</p>string.isUpper<p>string.isLower</p>string.toUpper<p>string.toLower</p>
+<p>string.compare<p>string.endsWith<p>string.equals<p>string.hashCode<p>string.intern</p>string.startsWith<p>string.split</p>string.toCharArray<p>string.trim</p>string.delet<p>string.insert</p>string.setCharAt<p>string.newString</p>string.isLetter<p>string.isDigit</p>string.isUpper<p>string.isLower</p>string.toUpper<p>string.toLower</p>
 用法可参考Java原方法，或者查看StringLib.dex的源码来学习函数用法
