@@ -17,7 +17,7 @@ public class StringLib extends TwoArgFunction {
 		LuaTable string = new LuaTable();
 		//LuaTable对应脚本里{}表
 		
-		//向string库里设置新函数，函数名为compareTo
+		//向string库里设置新函数，函数名为"测试类是"
 		string.set("测试类", new 测试类());
         //这里用到了LuaTable类中的set方法
 		//set方法在很多类都有，而且参数不同
