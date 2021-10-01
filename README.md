@@ -17,7 +17,7 @@
 
 # 模板
 <p>由于luajava没法提供方便的String类都交互，所以我们需要对String类中的一些方法进行封装，并将它加入_G全局表中的string库里</p>
-<p>StringLib.java类为luaj原String库编写方式的模板，参考该编写方式可有效学习函数封装方法</p>
+<p>StringLib.java类为luaj原String库编写方式的模板（不是我封装好的那个StringLib的源码），参考该编写方式可有效学习函数封装方法</p>
 <p>https://github.com/JealousCat/GGMod/blob/main/StringLib.java</p>
 
 # 美化教程
@@ -38,10 +38,34 @@
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/Luajava.dex">luajava.dex文件下载</a></p>
 LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luajava.toArray、luajava.methods。具体用法在后续教程中体现，或使用jadx查看java代码
 <p><a href="https://alywp.net/2KzA5a">一、添加luajava库，用于lua与java交互，并可使用java方法</a></p>
-
+<p><a href="https://alywp.net/7I7PeA">二、添加String库，在原有基础上完善</a></p>
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
 <p><a href="https://alywp.net/19f22g">一、安装手机端AIDE</a></p>
 <p><a href="https://alywp.net/6sngOO">二、编写一个StringUtils调试luajava库</a></p>
-
+三、String库的完善与相关函数编写
+<p><a href="https://alywp.net/4woqss">①主要讲解LuaValue.valueOf的使用</a></p>
+<p><a href="https://alywp.net/6DceDH">②展示一些函数的编写过程</a></p>
+<p><a href="https://alywp.net/7I7PeA">③教学封装StringLib的函数如何与原库合并</a></p>
+新增内容如下：
+<p>string.compare</p>
+<p>string.endsWith</p>
+<p>string.equals</p>
+<p>string.hashCode</p>
+<p>string.intern</p>
+<p>string.startsWith</p>
+<p>string.split</p>
+<p>string.toCharArray</p>
+<p>string.trim</p>
+<p>string.delet</p>
+<p>string.insert</p>
+<p>string.setCharAt</p>
+<p>string.newString</p>
+<p>string.isLetter</p>
+<p>string.isDigit</p>
+<p>string.isUpper</p>
+<p>string.isLower</p>
+<p>string.toUpper</p>
+<p>string.toLower</p>
+用法可参考Java原方法，或者查看StringLib.dex的源码来学习函数用法
