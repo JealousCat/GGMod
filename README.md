@@ -30,6 +30,9 @@
 <p><a href="https://alywp.net/3olKpw">五、通过res文件精简安装包大小</a></p>
 <p><a href="https://alywp.net/46L2QB">六、通过dex文件精简安装包大小</a></p>
 <p><a href="https://alywp.net/3FI6PT">七、去除脚本执行结束时的“脚本已结束：”字样，方便复制结束内容</a></p>
+<p><a href="https://alywp.net/3mSuk5">八、UI图标美化</a></p>
+<p><a href="https://alywp.net/6XmSy4">九：设置彩色描边透明背景弹窗</a></p>
+<p><a href="https://alywp.net/2EKe3V">十、去除搜索列表、保存列表的说明文字</a></p>
 
 
 
