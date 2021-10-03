@@ -18,7 +18,7 @@
 # 模板
 <p>由于luajava没法提供方便的String类都交互，所以我们需要对String类中的一些方法进行封装，并将它加入_G全局表中的string库里</p>
 <p>StringLib.java类为luaj原String库编写方式的模板（不是我封装好的那个StringLib的源码），参考该编写方式可有效学习函数封装方法</p>
-<p>https://github.com/JealousCat/GGMod/blob/main/StringLib.java</p>
+<p>https://github.com/JealousCat/GGMod/blob/main/Function/StringLib.java</p>
 
 # 美化教程
 注：指对非函数库类功能或UI界面等进行更改，使得修改器使用体验更好，界面更美观
@@ -32,7 +32,7 @@
 <p><a href="https://alywp.net/3FI6PT">七、去除脚本执行结束时的“脚本已结束：”字样，方便复制结束内容</a></p>
 <p><a href="https://alywp.net/3mSuk5">八、UI图标美化</a></p>
 <p><a href="https://alywp.net/6XmSy4">九、设置彩色描边透明背景弹窗</a></p>
-<a href="https://github.com/JealousCat/GGMod/blob/main/LuaJava/luajava%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B%E4%B8%80.lua">弹窗美化教程中的Alert.smali下载</a>
+<a href="https://github.com/JealousCat/GGMod/blob/main/beautify/Alert.smali">弹窗美化教程中的Alert.smali下载</a>
 <p><a href="https://alywp.net/2EKe3V">十、去除搜索列表、保存列表的说明文字</a></p>
 
 
