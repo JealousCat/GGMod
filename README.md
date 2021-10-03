@@ -54,7 +54,7 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 有机会再详细说明各个函数的用法
 
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/SmaliManager.dex">五、dex转samli</a></p>
-<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/res.dex">反编译arsc、</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/res.dex">反编译arsc、xml</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/apksigner.dex">六、apk签名</a></p>
 <p>你可以luajava库来访问它们</p>
 
