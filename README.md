@@ -43,6 +43,15 @@
 LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luajava.toArray、luajava.methods。具体用法在后续教程中体现，或使用jadx查看java代码
 <p><a href="https://alywp.net/2KzA5a">一、添加luajava库，用于lua与java交互，并可使用java方法</a></p>
 <p><a href="https://alywp.net/7I7PeA">二、添加String库，在原有基础上完善</a></p>
+<p><a href="https://alywp.net/3uFJjb">三、在string和math库添加单个新函数</a></p>
+新增加了两个函数，其添加教程都可以使用如上教程
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/Function/StringLib%24similarity.dex">string.similarity字符串相似度</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/Function/MathLib%24gcd.dex">math.gcd最大公约数计算</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ToolsLib.dex">四、脱胎与GG原生类的工具函数库ToolsLib.dex</a></p>
+整理了GG原来的所有类中的方法，将可以直接访问的静态方法，且有一定脚本内使用价值的方法均封装成了ToolsLib
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ToolsLib.dex"></a>ToolsLib.dex作为全新编译的拓展库，它可以像StringLib等库一样在Script类中实例化并加载进全局环境中，也可以使用luajava.loadDex进行非合并的本地加载</p>
+<p>tools.removeNewLinesChars、tools.getCacheDir、tools.getHiddenDir、tools.getRamSizeKb、tools.isRootMode、tools.tryRoot、tools.toString64、tools.getLogcatFilename、tools.openAppInfo、tools.chmod、tools.executeScript、tools.isScreenOn、tools.getCacheDirHidden、tools.isPackageInsta、tools.alertBigText、tools.getNativePath、tools.exec、tools.prefixLongHex、tools.getFilesDir、tools.sendRestartIntent、tools.dump、tools.compare、tools.getStubLib、tools.hash、tools.crc32、tools.isLandscape、tools.ToHexString、tools.getScreenSize、tools.isX86、tools.trimDirPath、tools.doubleToTime、tools.allowExecute、tools.getSdcardPath、tools.prefix、tools.formatFileSize、tools.dp2px、tools.copyFile、tools.restartApp、tools.longToTime、tools.getDaemonDir、tools.getDaemonPath、tools.getFilesDirHidden、tools.parseTime、tools.getFreeMem、tools.getDataDirSafe</p>
+有机会再详细说明各个函数的用法
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
