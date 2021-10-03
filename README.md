@@ -34,6 +34,10 @@
 <p><a href="https://alywp.net/6XmSy4">九、设置彩色描边透明背景弹窗</a></p>
 <a href="https://github.com/JealousCat/GGMod/blob/main/beautify/Alert.smali">弹窗美化教程中的Alert.smali下载</a>
 <p><a href="https://alywp.net/2EKe3V">十、去除搜索列表、保存列表的说明文字</a></p>
+<p><a href="https://alywp.net/4BjGoS">十一、状态栏</a></p>
+<p>const/4 v4, 0x1</p>
+<p>invoke-virtual {p0, v4}, Landroid/ext/BaseActivity;->requestWindowFeature(I)Z</p>
+<p><a href="https://alywp.net/4i8iUT">十二、出错删除主页不常用按钮，美化按钮UI，设置主页背景图</a></p>
 
 
 
