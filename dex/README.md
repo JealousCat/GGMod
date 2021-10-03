@@ -2,11 +2,11 @@
 
 #加载方法大概如下
 
-path = "/storage/emulated/0/Notes/ToolsLib.dex"
-dir = "/sdcard/Notes/"
-Tools = luajava.bindClass("android.ext.Tools")
---loadDex有三个参数，分别是dex的路径、dex加载缓存路径、以及GG的Context
-dex = luajava.loadDex(path,dir,Tools:getContext())
-tools = dex:loadClass("luaj.lib.ToolsLib")
-_G.tools = tools:call()
-print(tools.getCacheDirHidden())
+<p>path = "/storage/emulated/0/Notes/ToolsLib.dex"</p>
+<p>dir = "/sdcard/Notes/"</p>
+<p>Tools = luajava.bindClass("android.ext.Tools")</p>
+<p>--loadDex有三个参数，分别是dex的路径、dex加载缓存路径、以及GG的Context</p>
+<p>dex = luajava.loadDex(path,dir,Tools:getContext())</p>
+<p>tools = dex:loadClass("luaj.lib.ToolsLib")</p>
+<p>_G.tools = tools:call()</p>
+<p>print(tools.getCacheDirHidden())</p>
