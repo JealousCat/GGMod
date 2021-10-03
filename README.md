@@ -32,14 +32,14 @@
 <p><a href="https://alywp.net/3FI6PT">七、去除脚本执行结束时的“脚本已结束：”字样，方便复制结束内容</a></p>
 <p><a href="https://alywp.net/3mSuk5">八、UI图标美化</a></p>
 <p><a href="https://alywp.net/6XmSy4">九、设置彩色描边透明背景弹窗</a></p>
-<a href="https://github.com/JealousCat/GGMod/blob/main/Alert.smali">弹窗美化教程中的Alert.smali下载</a>
+<a href="https://github.com/JealousCat/GGMod/blob/main/LuaJava/luajava%E7%94%A8%E6%B3%95%E5%AE%9E%E4%BE%8B%E4%B8%80.lua">弹窗美化教程中的Alert.smali下载</a>
 <p><a href="https://alywp.net/2EKe3V">十、去除搜索列表、保存列表的说明文字</a></p>
 
 
 
 # 函数添加教程
 注：指将编译好的函数文件添加到GG修改器的函数库中
-<p><a href="https://github.com/JealousCat/GGMod/blob/main/Luajava.dex">luajava.dex文件下载</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/LuaJava/Luajava.dex">luajava.dex文件下载</a></p>
 LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luajava.toArray、luajava.methods。具体用法在后续教程中体现，或使用jadx查看java代码
 <p><a href="https://alywp.net/2KzA5a">一、添加luajava库，用于lua与java交互，并可使用java方法</a></p>
 <p><a href="https://alywp.net/7I7PeA">二、添加String库，在原有基础上完善</a></p>
