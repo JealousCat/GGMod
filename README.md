@@ -53,6 +53,30 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p>tools.removeNewLinesChars、tools.getCacheDir、tools.getHiddenDir、tools.getRamSizeKb、tools.isRootMode、tools.tryRoot、tools.toString64、tools.getLogcatFilename、tools.openAppInfo、tools.chmod、tools.executeScript、tools.isScreenOn、tools.getCacheDirHidden、tools.isPackageInsta、tools.alertBigText、tools.getNativePath、tools.exec、tools.prefixLongHex、tools.getFilesDir、tools.sendRestartIntent、tools.dump、tools.compare、tools.getStubLib、tools.hash、tools.crc32、tools.isLandscape、tools.ToHexString、tools.getScreenSize、tools.isX86、tools.trimDirPath、tools.doubleToTime、tools.allowExecute、tools.getSdcardPath、tools.prefix、tools.formatFileSize、tools.dp2px、tools.copyFile、tools.restartApp、tools.longToTime、tools.getDaemonDir、tools.getDaemonPath、tools.getFilesDirHidden、tools.parseTime、tools.getFreeMem、tools.getDataDirSafe</p>
 有机会再详细说明各个函数的用法
 
+<p>五、dex修改</p>
+<p>这个dex文件使用内容大概如后文，你可以luajava库来访问它</p>
+<p>dex转samli件https://github.com/JealousCat/GGMod/blob/main/dex/SmaliManager.dex</p>
+brut.androlib.src.SmaliDecoder
+<p>五个参数:</p>
+<p>apk路径(File类型)，解压输出路径(File类型)，apk包内dex的全名（如classes.dex，String类型），是否为调试模式（boolean类型），API级别（如29，int类型）</p>
+<p>brut.directory.ExtFile将String类型的path或者File类型实例化为ExtFile</p>
+brut.androlib.src.SmaliBuilder
+<p>三个参数：</p>
+由brut.directory.ExtFile实例化的File文件，编译后的新dex存放的文件(File类型)，API级别
+<p></p>
+<p>arsc、AndroidManifest.xml文件的反编译https://github.com/JealousCat/GGMod/blob/main/dex/res.dex</p>
+用法这里就不细说
+<p>六、apk签名</p>
+<p>签名开发包，https://github.com/JealousCat/GGMod/blob/main/dex/apksigner.dex</p>
+<p>apksigner.Signer类</p>
+sign方法，两个参数。
+<p>两个参数时，均为String类型，分别是apk路径和输出路径</p>
+
+<p>loadKeys方法，一个参数时为keys的文件名</p>
+<p>两个参数时分别为keys的绝对父路径，第二个为文件名。</p>
+
+keys文件名不加.pk8、.x509.pem、.sbt，只使用如testkeys等名字
+<p></P>
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
 <p><a href="https://alywp.net/19f22g">一、安装手机端AIDE</a></p>
