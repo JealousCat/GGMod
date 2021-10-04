@@ -38,7 +38,7 @@
 <p>const/4 v4, 0x1</p>
 <p>invoke-virtual {p0, v4}, Landroid/ext/BaseActivity;->requestWindowFeature(I)Z</p>
 <p><a href="https://alywp.net/4i8iUT">十二、出错删除主页不常用按钮，美化按钮UI，设置主页背景图</a></p>
-
+<p><a href="https://alywp.net/2TLeyq">十三、去除弹窗等界面上链接显示</a></p>
 
 
 # 函数添加教程
@@ -61,6 +61,7 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/res.dex">反编译arsc、xml</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/apksigner.dex">六、apk签名</a></p>
 <p>你可以luajava库来访问它们</p>
+<p><a href="https://alywp.net/1PsYLn">七、CoroutineLib协程添加</a></p>
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
