@@ -68,7 +68,7 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ScreenMetrics.smali">十一、屏幕参数类，通过initIfNeeded初始化Activity得到一些参数，具体内容点击链接参看源码</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ZipUtil.smali">十二、zip管理类，有压缩方法zip、解压方法unzip、数据流拷贝copy方法、向压缩包内追加内容append方法</a></p>
 
-
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/TableLib.dex">十三、新增table.equals用于比较两个表内容是否相等；table.allPerm数组全排列。需要与classes.dex合并，教程参考MathLib的补充教程</a></p>
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
