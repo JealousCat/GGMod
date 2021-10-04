@@ -62,6 +62,10 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/apksigner.dex">六、apk签名</a></p>
 <p>你可以luajava库来访问它们</p>
 <p><a href="https://alywp.net/1PsYLn">七、CoroutineLib协程添加</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/LogPrint.dex">八、新增LogPrint，可实时查看打印内容，区别于print需要脚本结束才能看。使用方法见LogPrint.lua</a></p>
+
+
+
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
