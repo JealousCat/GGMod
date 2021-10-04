@@ -63,7 +63,10 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p>你可以luajava库来访问它们</p>
 <p><a href="https://alywp.net/1PsYLn">七、CoroutineLib协程添加</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/LogPrint.dex">八、新增LogPrint，可实时查看打印内容，区别于print需要脚本结束才能看。使用方法见LogPrint.lua</a></p>
-
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/RSASecurity.smali">九、RSA加密解密，类中三个方法：decrypt、encrypt、generateKeyPair</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/RootUtil.smali">十、Root管理类，类中有execRootCmd、execRootCmdSilent、haveRoot</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ScreenMetrics.smali">十一、屏幕参数类，通过initIfNeeded初始化Activity得到一些参数，具体内容点击链接参看源码</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ZipUtil.smali">十二、zip管理类，有压缩方法zip、解压方法unzip、数据流拷贝copy方法、向压缩包内追加内容append方法</a></p>
 
 
 
