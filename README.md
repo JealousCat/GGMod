@@ -39,6 +39,12 @@
 <p>invoke-virtual {p0, v4}, Landroid/ext/BaseActivity;->requestWindowFeature(I)Z</p>
 <p><a href="https://alywp.net/4i8iUT">十二、出错删除主页不常用按钮，美化按钮UI，设置主页背景图</a></p>
 <p><a href="https://alywp.net/2TLeyq">十三、去除弹窗等界面上链接显示</a></p>
+<p><a href="https://alywp.net/1m2Fj9">十四、设置按钮</a></p>
+<p>const v1, 0x0</p>
+<p></p>
+<p>invoke-virtual {p0, v1}, Landroid/fix/Button;->setBackgroundColor(I)V</p>
+
+
 
 
 # 函数添加教程
@@ -69,6 +75,11 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ZipUtil.smali">十二、zip管理类，有压缩方法zip、解压方法unzip、数据流拷贝copy方法、向压缩包内追加内容append方法</a></p>
 
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/TableLib.dex">十三、新增table.equals用于比较两个表内容是否相等；table.allPerm数组全排列。需要与classes.dex合并，教程参考MathLib的补充教程</a></p>
+
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/Jsoup.dex">十四、Jsoup让你解析网页更专业！</a></p>
+
+
+
 
 # 函数编写教程
 注：指函数源码编写过程，可学习LuaJ和luajava的API
