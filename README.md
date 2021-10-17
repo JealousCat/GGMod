@@ -1,6 +1,6 @@
 # GGMod
 提供GameGuardian的MOD教程和代码，如luajava库、修复os.execute函数、完善String库、添加Canvas等。
-
+相较于提供java源码，提供封装好的dex或smali更能让大多数人直接投入使用，即使他什么语言也不会也能根据教程获得所需。如果是想学Java源码的，那么dex、smali也不会难倒你吧？？
 2021.10.01开始不定时更新
 
 # 手机端工具
@@ -16,7 +16,7 @@
 <p>Java</p>
 
 # 模板
-<p>由于luajava没法提供方便的String类都交互，所以我们需要对String类中的一些方法进行封装，并将它加入_G全局表中的string库里</p>
+<p>由于luajava没法提供方便的String类的交互，所以我们需要对String类中的一些方法进行封装，并将它加入_G全局表中的string库里</p>
 <p>StringLib.java类为luaj原String库编写方式的模板（不是我封装好的那个StringLib的源码），参考该编写方式可有效学习函数封装方法</p>
 <p>https://github.com/JealousCat/GGMod/blob/main/Function/StringLib.java</p>
 
@@ -37,9 +37,9 @@
 <p><a href="https://alywp.net/4BjGoS">十一、状态栏</a></p>
 <p>const/4 v4, 0x1</p>
 <p>invoke-virtual {p0, v4}, Landroid/ext/BaseActivity;->requestWindowFeature(I)Z</p>
-<p><a href="https://alywp.net/4i8iUT">十二、出错删除主页不常用按钮，美化按钮UI，设置主页背景图</a></p>
+<p><a href="https://alywp.net/4i8iUT">十二、无错删除主页不常用按钮，美化按钮UI，设置主页背景图</a></p>
 <p><a href="https://alywp.net/2TLeyq">十三、去除弹窗等界面上链接显示</a></p>
-<p><a href="https://alywp.net/1m2Fj9">十四、设置按钮</a></p>
+<p><a href="https://alywp.net/1m2Fj9">十四、设置透明按钮</a></p>
 <p>const v1, 0x0</p>
 <p></p>
 <p>invoke-virtual {p0, v1}, Landroid/fix/Button;->setBackgroundColor(I)V</p>
@@ -57,8 +57,8 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 新增加了两个函数，其添加教程都可以使用如上教程
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/Function/StringLib%24similarity.dex">string.similarity字符串相似度</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/Function/MathLib%24gcd.dex">math.gcd最大公约数计算</a></p>
-<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ToolsLib.dex">四、脱胎与GG原生类的工具函数库ToolsLib.dex</a></p>
-整理了GG原来的所有类中的方法，将可以直接访问的静态方法，且有一定脚本内使用价值的方法均封装成了ToolsLib
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ToolsLib.dex">四、脱胎于GG原生类的工具函数库ToolsLib.dex</a></p>
+整理了GG原来的所有类中的方法，将可以直接访问的静态方法，且有一定脚本内使用价值的方法均封装在ToolsLib
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ToolsLib.dex"></a>ToolsLib.dex作为全新编译的拓展库，它可以像StringLib等库一样在Script类中实例化并加载进全局环境中，也可以使用luajava.loadDex进行非合并的本地加载</p>
 <p>tools.removeNewLinesChars、tools.getCacheDir、tools.getHiddenDir、tools.getRamSizeKb、tools.isRootMode、tools.tryRoot、tools.toString64、tools.getLogcatFilename、tools.openAppInfo、tools.chmod、tools.executeScript、tools.isScreenOn、tools.getCacheDirHidden、tools.isPackageInsta、tools.alertBigText、tools.getNativePath、tools.exec、tools.prefixLongHex、tools.getFilesDir、tools.sendRestartIntent、tools.dump、tools.compare、tools.getStubLib、tools.hash、tools.crc32、tools.isLandscape、tools.ToHexString、tools.getScreenSize、tools.isX86、tools.trimDirPath、tools.doubleToTime、tools.allowExecute、tools.getSdcardPath、tools.prefix、tools.formatFileSize、tools.dp2px、tools.copyFile、tools.restartApp、tools.longToTime、tools.getDaemonDir、tools.getDaemonPath、tools.getFilesDirHidden、tools.parseTime、tools.getFreeMem、tools.getDataDirSafe</p>
 有机会再详细说明各个函数的用法
@@ -71,7 +71,7 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/LogPrint.dex">八、新增LogPrint，可实时查看打印内容，区别于print需要脚本结束才能看。使用方法见LogPrint.lua</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/RSASecurity.smali">九、RSA加密解密，类中三个方法：decrypt、encrypt、generateKeyPair</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/RootUtil.smali">十、Root管理类，类中有execRootCmd、execRootCmdSilent、haveRoot</a></p>
-<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ScreenMetrics.smali">十一、屏幕参数类，通过initIfNeeded初始化Activity得到一些参数，具体内容点击链接参看源码</a></p>
+<p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ScreenMetrics.smali">十一、屏幕参数类，通过initIfNeeded初始化Activity得到一些参数，具体内容点击链接查看源码</a></p>
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/ZipUtil.smali">十二、zip管理类，有压缩方法zip、解压方法unzip、数据流拷贝copy方法、向压缩包内追加内容append方法</a></p>
 
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/dex/TableLib.dex">十三、新增table.equals用于比较两个表内容是否相等；table.allPerm数组全排列。需要与classes.dex合并，教程参考MathLib的补充教程</a></p>
