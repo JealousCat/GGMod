@@ -50,6 +50,7 @@
 # 函数添加教程
 注：指将编译好的函数文件添加到GG修改器的函数库中
 <p><a href="https://github.com/JealousCat/GGMod/blob/main/LuaJava/Luajava.dex">luajava.dex文件下载</a></p>
+（2022.1.17注：luajava的函数库有更新，参见Luajava的readme）
 LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luajava.toArray、luajava.methods。具体用法在后续教程中体现，或使用jadx查看java代码
 <p><a href="https://alywp.net/2KzA5a">一、添加luajava库，用于lua与java交互，并可使用java方法</a></p>
 <p><a href="https://alywp.net/7I7PeA">二、添加String库，在原有基础上完善</a></p>
