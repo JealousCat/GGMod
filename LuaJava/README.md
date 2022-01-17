@@ -10,3 +10,22 @@ luajava.instanceOf --两个参数，均可以传入类实例（LuaUserdata）或
 需要注意的是继承于luaj.Varargs的LuaTable等类在脚本内使用instanceOf只会得到Class.class的判别
 
 
+print(luajava.instanceOf("android.ext.FloatPanel","android.fix.LinearLayout"))
+--true 	class android.fix.LinearLayout是class android.ext.FloatPanel的父类
+
+print(luajava.instanceOf("android.fix.LinearLayout","android.ext.FloatPanel"))
+--true 	class android.fix.LinearLayout是class android.ext.FloatPanel的父类
+
+local LuaTable = luajava.new(luajava.bindClass("luaj.LuaTable"))
+--print(LuaTable)
+--{}
+print(luajava.instanceOf(LuaTable,"luaj.Varargs"))
+--false 	class luaj.Varargs与class java.lang.Class没有继承与被继承关系
+
+print(luajava.instanceOf("luaj.LuaTable","luaj.Varargs"))
+--true 	class luaj.Varargs是class luaj.LuaTable的父类
+
+context = luajava.bindClass("android.ext.Tools"):getContext()
+MsContext = luajava.bindClass("android.ext.MainService").context
+print(luajava.instanceOf(context,MsContext))
+--true 	class android.ext.ServiceContext是class android.ext.ServiceContext的父类(本体)
