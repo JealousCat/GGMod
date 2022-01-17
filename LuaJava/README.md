@@ -3,3 +3,10 @@ LuaJava文件夹将存放包括LuaJava.dex在内的所有LuaJava使用实例
 如果对你造成了侵权，请联系我
 如果你发现了可优化的代码问题，可联系我
 如果你需要封装这里没有的函数，可准备上源码或者不准备，联系我后我可以尝试帮助，因为我才学Java没多久
+
+2022.1.17上传了LuaJavaLib.smali文件，该文件内容用于替换原luajava.dex内的LuaJavaLib类，本次更新内容如下:
+luajava.instanceOf --两个参数，均可以传入类实例（LuaUserdata）或类全名（LuaString类型）,其使用的是isAssignableFrom，但也实现了instanceof的功能。
+返回参数两个，当传入参数A、B中的第一个参数的类型为第二个参数类型的父类时，返回true及“A是B的父类”的文字描述，B是A的父类返回true及继承关系描述，其他情况为false。
+需要注意的是继承于luaj.Varargs的LuaTable等类在脚本内使用instanceOf只会得到Class.class的判别
+
+
