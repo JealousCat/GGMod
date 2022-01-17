@@ -29,3 +29,6 @@ context = luajava.bindClass("android.ext.Tools"):getContext()
 MsContext = luajava.bindClass("android.ext.MainService").context
 print(luajava.instanceOf(context,MsContext))
 --true 	class android.ext.ServiceContext是class android.ext.ServiceContext的父类(本体)
+
+luajava.castOf为类型强制转换，也是两个参数，可传userdata或者string
+返回内容为强制转换的结果或nil
