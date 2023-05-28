@@ -94,4 +94,10 @@ LuaJava库将原官方的Loadlib更换为LoadDex，新增luajava.astable、luaja
 <p></p>string.compare、string.endsWith、string.equals、string.hashCode、string.intern、string.startsWith、string.split、string.toCharArray、string.trim、string.delet、string.insert、string.setCharAt、string.newString、string.isLetter、string.isDigit、string.isUpper、string.isLower、string.toUpper、string.toLower<p></p>
 用法可参考Java原方法，或者查看StringLib.dex的源码来学习函数用法
 
+# Lua实现的一些工具
+<p><a href="[https://alywp.net/7I7PeA](https://github.com/JealousCat/GGMod/blob/main/LuaLexState/lua%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9%26%E5%BC%BA%E5%88%B6%E6%A0%BC%E5%BC%8F%E5%8C%960.2.1v.lua)">Lua实现的Lua词法分析 API</a></p>
+需要注意其中使用了gg.bytes代替string.byte来获取byte[]
+<p><a href="[https://alywp.net/7I7PeA](https://github.com/JealousCat/GGMod/blob/main/LuaLexState/lua%E4%BB%A3%E7%A0%81%E5%8E%8B%E7%BC%A9%26%E5%BC%BA%E5%88%B6%E6%A0%BC%E5%BC%8F%E5%8C%960.2.1v.lua)">使用上述API实现的Lua代码格式化工具</a></p>
+可实现将压缩成一行的，可读性差的Lua源码格式化为正常的文件
+
 
