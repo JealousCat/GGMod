@@ -14,8 +14,8 @@
 提取码：DM66
 
 # 养佬院群文件下载
-链接：https://pan.baidu.com/s/1_KZ1U4CQlnRGYhjwP__uJQ?pwd=c314 
-提取码：c314 
+链接：https://pan.baidu.com/s/1z9mMbWyJLbW7emURXMDj2g?pwd=6666 
+提取码：6666 
 复制这段内容后打开百度网盘手机App，操作更方便哦
 
 # 手机端工具
