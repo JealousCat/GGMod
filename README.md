@@ -3,6 +3,21 @@
 相较于提供java源码，提供封装好的dex或smali更能让大多数人直接投入使用，即使他什么语言也不会也能根据教程获得所需。如果是想学Java源码的，那么dex、smali也不会难倒你吧？？
 2021.10.01开始不定时更新
 
+# 最新版luajava获取渠道
+通过百度网盘分享的文件：96DM[luajava]修改器各版本汇总
+链接:https://pan.baidu.com/s/1pGXO07eHALUW5j6dSht0yw?pwd=ec2b 
+提取码:ec2b
+复制这段内容打开「百度网盘APP 即可获取」
+
+# 最新版词法分析器获取渠道
+链接：https://pan.baidu.com/s/1lSOZHGeAevNw1qYq4WlDKA?pwd=DM66 
+提取码：DM66
+
+# 养佬院群文件下载
+链接：https://pan.baidu.com/s/1_KZ1U4CQlnRGYhjwP__uJQ?pwd=c314 
+提取码：c314 
+复制这段内容后打开百度网盘手机App，操作更方便哦
+
 # 手机端工具
 <p>MT文件管理器.apk</p>
 <p>AIDE.apk</p>
