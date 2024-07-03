@@ -14,9 +14,8 @@
 提取码：DM66
 
 # 养佬院群文件下载
-链接：https://pan.baidu.com/s/1z9mMbWyJLbW7emURXMDj2g?pwd=6666 
-提取码：6666 
-复制这段内容后打开百度网盘手机App，操作更方便哦
+链接：https://pan.baidu.com/s/1H97XX4CyAOxNoSt0EPiafQ?pwd=DM66 
+提取码：DM66
 
 # 手机端工具
 <p>MT文件管理器.apk</p>
